@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pawansarap/travel-list/static/css/main.708779c1.css",
+    "main.js": "/pawansarap/travel-list/static/js/main.67558c60.js",
+    "index.html": "/pawansarap/travel-list/index.html",
+    "main.708779c1.css.map": "/pawansarap/travel-list/static/css/main.708779c1.css.map",
+    "main.67558c60.js.map": "/pawansarap/travel-list/static/js/main.67558c60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.708779c1.css",
+    "static/js/main.67558c60.js"
+  ]
+}
