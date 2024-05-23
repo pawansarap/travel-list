@@ -17,7 +17,6 @@ export default function PackingList({
     sortedItems = items
       .slice()
       .sort((a, b) => a.description.localeCompare(b.description));
-
   if (sortBy === "packed")
     sortedItems = items
       .slice()
@@ -36,7 +35,7 @@ export default function PackingList({
         ))}
       </ul>
 
-     { sortedItems.length !== 0 && <div className="actions">
+      { sortedItems.length !== 0 && <div className="actions">
         <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
           <option value="input">Sort by input order</option>
           <option value="description">Sort by description</option>
